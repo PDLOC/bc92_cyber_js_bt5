@@ -2,7 +2,14 @@
  * Bài 1: Quản lý tuyển sinh
  * 
  * Đầu vào
- *  -Tạo biến toàn cục
+ *  -Dom tới điểm chuẩn lấy giá tri từ input
+ *  -Dom tới môn thứ 1 lấy giá tri từ input
+ *  -Dom tới môn thứ 2 lấy giá tri từ input
+ *  -Dom tới môn thứ 3 lấy giá tri từ input
+ *  
+ * 
+ * Xử lý
+ * *  -Tạo biến toàn cục
  *  Khu vực ưu tiên A = 2
  *  Khu vực ưu tiên B = 1
  *  Khu vực ưu tiên C = 0.5
@@ -12,14 +19,9 @@
  *  Đối tượng ưu tiên 2 = 1.5
  *  Đối tượng ưu tiên 3 = 1
  * 
- *  -Tạo biến chứa giá trị điểm chuẩn
- *  -Tạo biến chứa giá trị môn thứ 1
- *  -Tạo biến chứa giá trị môn thứ 2
- *  -Tạo biến chứa giá trị môn thứ 3
- *  
+ * 
  *  -Tạo biến chứa điểm tổng kết và gán giá trị = 0
  * 
- * Xử lý
  * tính điểm tổng kết = tổng 3 môn
  * 
  * Kiểm tra nếu có khu vực A và đối tượng không ưu tiên 0 -> điểm tổng kết + khu A + đối tượng 0
@@ -241,6 +243,19 @@ function tinhDiemTongKet() {
  * Bài 2
  * 
  * Đầu vào
+ * 
+ * Dom 50kw đầu lấy giá trị từ input
+ * Dom 50kw kế lấy giá trị từ input
+ * Dom 100kw kế lấy giá trị từ input
+ * Dom 150kw kế lấy giá trị từ input
+ * Dom số kw còn lại lấy giá trị từ input
+ * 
+ * Tạo biến tính tổng tiền điện
+ * 
+ * 
+ * 
+ * Xử lý
+ * 
  * Tạo biến chứa tên
  * Tạo biến chứa số KW
  *  biến giá 50kw đầu = 500 đ
@@ -249,17 +264,6 @@ function tinhDiemTongKet() {
  *  biến giá 150kw đầu = 1100 đ
  *  biến giá còn lại = 1300 đ
  * 
- * Biến chứa giá trị 50kw đầu
- * Biến chứa giá trị 50kw kế
- * Biến chứa giá trị 100kw kế
- * Biến chứa giá trị 150kw kế
- * Biến chứa giá trị số kw còn lại
- * 
- * Tạo biến tính tổng tiền điện
- * 
- * 
- * 
- * Xử lý
  *  So sánh số Kw nhập trong khoảng từ 0 tới 50kw để tính 50kw đầu
  *  quá 50kw thì so sánh tiếp trong khoảng tờ 50 tới 100 để tính tiếp 50kw kế
  *  quá 100kw so sánh tiếp trong khoảng 100 tới 200 để tính 100kw kế
@@ -372,12 +376,15 @@ function tinhTienDien() {
  * Tính thuế thu nhập cá nhân
  * 
  * Đầu vào
- * Tạo biến chứa tên
- * Biến số người phụ thuộc
- * Biến chứa giá trị số tiền thu nhập theo năm
+ * Dom hoTen lấy giá trị input
+ * Dom thuNhap lấy giá trị input
+ * Dom nguoiPhuThuoc lấy giá trị input
  * 
  * 
  * XỬ lý
+ * 
+ * Tạo biến chứa giá trị của thuế
+ * 
  * kiểm tra số người phục thuộc và thu nhập > 0 thì thực hiện bước dưới
  * nếu thu nhập trên năm > 60tr : [tổng thu nhập năm - 4tr - (số người phụ thuộc * 1.6tr)] * 5%
  * thu nhập trong khoảng từ 60tr đến 120tr : [tổng thu nhập năm - 4tr - (số người phụ thuộc * 1.6tr)] * 10%
